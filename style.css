@@ -191,7 +191,8 @@ header .header-content img{
     padding: 6rem 0;
 }
 
-.about h2{
+.about h2,
+.skills h2{
     text-align: center;
     font-size: 38px;
     color: #FFA47F ;
@@ -200,7 +201,8 @@ header .header-content img{
     letter-spacing: 1px;
 }
 
-.about hr{
+.about hr,
+.skills hr{
     width: 130px;
     height: 3px;
     background-color: black;
@@ -225,5 +227,42 @@ header .header-content img{
     color: rgba(0, 0, 0, 0.706);
     margin-bottom: 20px;
     line-height: 1.7;
+}
+
+
+/* Skills Section */
+
+.skills{
+    padding: 6rem 0;
+}
+
+
+.skills .skills-content{
+    margin-top: 2rem;
+ }
+
+.skills .skills-content .skills-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.skills .skills-content .skills-cards .item{
+
+    background-color: rgba(0, 0, 0, 0.062);
+    margin: 20px;
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.skills .skills-content .skills-cards .item:hover{
+    box-shadow: 5px 5px #B500B2;
+}
+.skills img{
+    max-width: 40px;
 }
 
