@@ -1,3 +1,5 @@
+/* Styling structure */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,85 @@
     box-sizing: border-box;
 }
 
+/* Scrolling behaviour - when you navigate from section to another */
+
 html{
     scroll-behavior: smooth;
+}
+
+/* 
+
+Colors code:
+
+Primary color   ----- #8100D1 (purple)
+Secondary color ----- #B500B2 (blueviolet)
+Third color     ----- #FF52A0 (white pink)
+Fourth color    ----- #FFA47F (white chocalate)
+
+*/
+
+
+/* any container should have these rules */
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+/* Header Navigation Section */
+
+header{
+    height: 100vh;
+}
+
+.nav-bar{
+    background: linear-gradient(to left,#b500b2ba,#ffa37fd2);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-bar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100;
+    margin: auto;
+    padding: 1.5rem 2rem;
+}
+
+.logo{
+    color: #8100D1; 
+    font-weight: 600;
+    font-size: large;
+}
+
+span{
+    color: #B500B2; 
+    font-weight: 600;
+}
+
+.logo:hover{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul a{
+    margin: 0 15px;
+    color: black;
+    font-weight: 400;
+    }
+
+.nav-bar a:hover{
+    font-weight: 500;
+    text-decoration: underline;
+    transform: scale(1.02);
 }
