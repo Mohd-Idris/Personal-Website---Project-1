@@ -107,6 +107,7 @@ header .header-content{
     padding: 5rem 2rem 0;
 }
 
+/* Global span */
 .text-span{
     color:rgb(147, 50, 238);
 }
@@ -179,5 +180,50 @@ header .header-content img{
 
 .header-content .content-text{
     margin-bottom: 5rem;
+}
+
+
+/* About Me  Section */
+
+.about
+{
+    background-color: #ffa37f21;
+    padding: 6rem 0;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 38px;
+    color: #FFA47F ;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.about hr{
+    width: 130px;
+    height: 3px;
+    background-color: black;
+    border: none;
+    margin: 5px auto 0;
+}
+
+.about .about-content {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.about .about-content h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.627);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.about .about-content p{
+    color: rgba(0, 0, 0, 0.706);
+    margin-bottom: 20px;
+    line-height: 1.7;
 }
 
