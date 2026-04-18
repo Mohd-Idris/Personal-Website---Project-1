@@ -34,9 +34,12 @@ The goal of this project was to design and develop a responsive, accessible, and
 
 📂 File Structure
 
+'''
 ├── index.html # Main HTML structure (hompepage) and entry point of the website
 ├── style.css # Main stylesheet for layout and visual design (containing all custom designs)
 ├── README.md # Project documentation
+
+'''
 
 
 💻 How to View
