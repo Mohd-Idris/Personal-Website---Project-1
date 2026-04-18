@@ -32,14 +32,12 @@ The goal of this project was to design and develop a responsive, accessible, and
 
 • Technical Focus: Clean code architecture, cross-browser compatibility, and CSS layout techniques.
 
-📂 File Structure
 
-'''
-├── index.html # Main HTML structure (hompepage) and entry point of the website
-├── style.css # Main stylesheet for layout and visual design (containing all custom designs)
-├── README.md # Project documentation
+📂 File Structure <br>
+├── index.html             # Main HTML structure (hompepage) and entry point of the website<br>
+├── style.css              # Main stylesheet for layout and visual design (containing all custom designs).<br>
+└── README.md              # Project documentation. 
 
-'''
 
 
 💻 How to View
