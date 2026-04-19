@@ -93,7 +93,7 @@ ul a{
 }
 
 
-/* Header Content Section  */ 
+/* Header Content Section ---- Hero Section */ 
 
 header .header-content{
     display: grid;
@@ -148,13 +148,11 @@ header .header-content{
 }
 
 
-.header-content .social-icons .you-red,
-.footer .social-icons .you-red{
+.header-content .social-icons .you-red{
     color: red;
 }
 
-.header-content .social-icons .link-blue,
-.footer .social-icons .link-blue{
+.header-content .social-icons .link-blue{
     color: #0077B5;
 }
 
@@ -394,7 +392,51 @@ header .header-content img{
     text-decoration: underline;
 }
 
-
 .contact .contact-content img{
     width: 100%;
 }
+
+
+/* Footer Section */
+
+.footer {
+    color: rgba(0, 0, 0, 0.636);
+    background: linear-gradient(to left,#b500b2ba,#ffa37fd2);
+    padding: 1rem 0;
+}
+
+.footer .container{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .container .social-icons i {
+    font-size: xx-large;
+    border: none;
+    border-radius: 50%;
+}
+
+.footer .container .social-icons i{
+    color: black;
+}
+
+.footer .container .social-icons .you-red:hover{
+    color: red;
+}
+
+.footer .container .social-icons .link-blue:hover{
+    color: #0077B5;
+}
+
+.footer .container .social-icons 
+.x-black:hover,
+.footer .container .social-icons 
+.git-black:hover
+{
+    color: #FFFFFF;
+}
+
+
+
