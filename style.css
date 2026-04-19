@@ -83,11 +83,12 @@ ul{
 ul a{
     margin: 0 15px;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
     }
 
-.nav-bar a:hover{
-    font-weight: 500;
+.nav-bar .nav-link:hover{
+    color: white;
+    font-weight: 600;
     text-decoration: underline;
     transform: scale(1.02);
 }
@@ -179,6 +180,14 @@ header .header-content img{
 .header-content .content-text{
     margin-bottom: 5rem;
 }
+
+.header-content .content-text .btn-aboutMe:hover{
+    transform: scale(1.1);
+    font-weight: 500;
+    text-transform:uppercase;
+    text-decoration: underline;
+}
+
 
 
 /* About Me  Section */
@@ -555,7 +564,7 @@ header .header-content img{
             grid-template-columns: 1fr;
     
         }
-        
+
         .contact .contact-content img{
             display: none;
         }
