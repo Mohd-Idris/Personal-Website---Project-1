@@ -192,7 +192,8 @@ header .header-content img{
 }
 
 .about h2,
-.skills h2{
+.skills h2,
+.portfolio h2{
     text-align: center;
     font-size: 38px;
     color: #FFA47F ;
@@ -202,7 +203,8 @@ header .header-content img{
 }
 
 .about hr,
-.skills hr{
+.skills hr,
+.portfolio hr{
     width: 130px;
     height: 3px;
     background-color: black;
@@ -266,3 +268,77 @@ header .header-content img{
     max-width: 40px;
 }
 
+/* Portfolio Section */
+
+.portfolio{
+    background-color: #ffa37f21;
+    padding: 6rem 0;
+}
+
+.porfolio-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.portfolio .item{
+    background-color: #fff;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.portfolio .item:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px #B500B2;
+
+}
+
+.portfolio .porfolio-cards .item .item-content{
+    padding: 20px 15px 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio .porfolio-cards h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    color:#B500B2;
+    text-align: center;
+}
+
+.portfolio .porfolio-cards p{
+    line-height: 1.7;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.portfolio img{
+    max-width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.portfolio .porfolio-cards .item-content .btn-portfolio{
+
+    background: linear-gradient(to right,#B500B2,#FFA47F);
+    color: #fff;
+    padding: 8px 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;    
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-portfolio:hover{
+
+    transform: scale(1.1);
+    font-weight: 500;
+    text-transform:uppercase;
+    text-decoration: underline;
+}
