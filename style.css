@@ -439,4 +439,75 @@ header .header-content img{
 }
 
 
+/* Tablets Responsive */
+
+@media (max-width: 768px){
+
+
+    /* Navigation Links + Logo Section */
+
+    .nav-bar nav{
+            display: block;
+            text-align: center;
+    }
+
+    .nav-bar nav ul{
+        margin-top: 20px;
+    }
+
+    .nav-bar nav ul a{
+        margin: 0 8px;
+    }
+
+    /* Header Content --- Hero Section */
+
+    #home .header-content{
+        grid-template-columns: 1fr;
+    }
+
+    #home .header-content .content-text{
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+    }
+
+    #home .header-content h1{
+        font-size: 40px;
+    }
+
+    #home .header-content img{
+        max-width: 280px;
+        margin: auto;
+    }
+
+    /* Skills Section and Portfolio Section */
+
+    .skills .skills-cards,
+    .portfolio .porfolio-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Contact ME Section */
+
+    .contact .contact-content img{
+        max-width: 450px;
+        margin: auto;
+    }
+
+    /* Footer Section */
+
+    .footer .container{
+         flex-wrap: nowrap;
+         text-wrap: nowrap;
+    }
+
+    .footer p{
+            font-size: 14px;
+        }
+
+    .footer .container .social-icons i {
+        font-size: large;
+    }
+   
+    }
+
 
