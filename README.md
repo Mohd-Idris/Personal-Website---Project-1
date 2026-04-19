@@ -1,12 +1,16 @@
-Mohamed Idris - Personal Portfolio
+# Mohamed Idris - Personal Portfolio Website
 
-This repository contains my personal portfolio website, built from scratch using core web technologies. It serves as both a professional showcase of my achievements and a formal project for my university assignment.
+A clean, responsive personal portfolio designed to showcase my professional work and skills. This project focuses on a "Desktop-First" responsive approach, using specific media query breakpoints to ensure the layout adapts perfectly to tablets and mobile devices.
 
-🎯 Project Overview
+
+option #2 : This repository contains my personal portfolio website, built from scratch using core web technologies. It serves as both a professional showcase of my achievements and a formal project for my university assignment.
+
+## 🎯 Project Overview
 
 The goal of this project was to design and develop a responsive, accessible, and professional personal website. By using semantic HTML and custom CSS, I have created a platform that reflects my professional identity and academic progress.
 
-🚀 Key Features
+
+## 🚀 Key Features
 
 • Semantic HTML5: Built with a clear document structure for better SEO and accessibility.
 
@@ -18,13 +22,35 @@ The goal of this project was to design and develop a responsive, accessible, and
 
 • Project Showcase: A dedicated section highlighting my portfolio, skills, and contact me section to reach me out for any kind of assistance or support from my end.
 
-🛠️ Tech Stack
 
-• HTML5: For content structure and semantic markup.
+## 🚀 Navigation & Sections
+The website features a smooth, single-page navigation layout including:
+- **Logo & 5-Link Nav:** Quick access to all sections.
+- **Hero Section:** A professional landing introduction.
+- **About Me:** My background and personal story.
+- **Skills:** Technical proficiencies and tools.
+- **Portfolio:** A showcase of my completed projects.
+- **Contact Me:** A dedicated area for reaching out.
+- **Footer:** Closing information and social links.
 
-• CSS3: For styling, layout design, and responsive media queries.
+## 🛠 Technologies & Tools
+### Core Stack
+- **HTML5** - Semantic structure.
+- **CSS3** - Custom styling and layout.
 
-🎓 University Assignment Details
+### Design Resources
+I utilized these professional tools to enhance the UI/UX:
+- **Font Awesome:** For scalable vector icons.
+- **Flaticon:** For high-quality graphic assets.
+- **Favicon.io:** For generating the `web-logo.ico`.
+- **Color Hunt:** For selecting the professional color palette.
+
+## 📱 Responsive Design (Breakpoints)
+The website is optimized for different screen sizes using the following CSS strategy:
+- **Tablet View:** Optimized for screens with a `max-width: 768px`.
+- **Mobile View:** Optimized for screens with a `max-width: 528px`.
+
+## 🎓 University Assignment Details
 
 • Course: Full Stack Software Development
 
@@ -33,21 +59,24 @@ The goal of this project was to design and develop a responsive, accessible, and
 • Technical Focus: Clean code architecture, cross-browser compatibility, and CSS layout techniques.
 
 
-📂 File Structure <br>
-├── index.html             # Main HTML structure (hompepage) and entry point of the website<br>
-├── style.css              # Main stylesheet for layout and visual design (containing all custom designs).<br>
-└── README.md              # Project documentation. 
 
+## 📂 Project Structure
+```text
+├── index.html # Main HTML structure and content
+├── style.css # CSS styles including Media Queries
+├── README.md # Project documentation and details
+├── web-logo.ico # Website icon (Favicon)
+└── images/ # Directory for assets and project photos
+```
 
+## 💻 How to View
 
-💻 How to View
+- Clone this repository to your local machine.
 
-1. Clone this repository to your local machine.
+- Locate the index.html file in the root directory.
 
-2. Locate the index.html file in the root directory.
+- Right-click the file and select "Open with..." then choose your preferred web browser (Chrome, Firefox, Safari, etc.).
 
-3. Right-click the file and select "Open with..." then choose your preferred web browser (Chrome, Firefox, Safari, etc.).
-
-📄 License
+## 📄 License
 
 This project was created for academic purposes. All content is original and belongs to Mohamed Idris.
