@@ -490,7 +490,7 @@ header .header-content img{
 
     /* Skills Section and Portfolio Section */
 
-    .skills .skills-cards,
+    .skills .skills-content .skills-cards,
     .portfolio .porfolio-cards {
         grid-template-columns: repeat(2, 1fr);
     }
