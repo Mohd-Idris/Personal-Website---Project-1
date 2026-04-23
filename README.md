@@ -1,14 +1,13 @@
 # Mohamed Idris - Personal Portfolio Website
 
-A clean, responsive personal portfolio designed to showcase my professional work and skills. This project focuses on a "Desktop-First" responsive approach, using specific media query breakpoints to ensure the layout adapts perfectly to tablets and mobile devices.
-
-
-option #2 : This repository contains my personal portfolio website, built from scratch using core web technologies. It serves as both a professional showcase of my achievements and a formal project for my university assignment.
+This repository contains my personal portfolio website, built from scratch using core web technologies. It serves as both a professional showcase of my achievements and a formal project for my university assignment.
 
 ## 🎯 Project Overview
 
-The goal of this project was to design and develop a responsive, accessible, and professional personal website. By using semantic HTML and custom CSS, I have created a platform that reflects my professional identity and academic progress.
+• **Project Goal:**  
+The goal of this project is to design and develop a responsive, accessible, and professional website. And demonstrate the ability to translate a design concept into a functional website using standard web technologies. By using semantic HTML and custom CSS, I have created a platform that reflects my professional identity and academic progress.
 
+• **Technical Focus:**  Clean code architecture, cross-browser compatibility, and CSS layout techniques.
 
 ## 🚀 Key Features
 
@@ -23,7 +22,7 @@ The goal of this project was to design and develop a responsive, accessible, and
 • Project Showcase: A dedicated section highlighting my portfolio, skills, and contact me section to reach me out for any kind of assistance or support from my end.
 
 
-## 🚀 Navigation & Sections
+## Navigation & Sections
 The website features a smooth, single-page navigation layout including:
 - **Logo & 5-Link Nav:** Quick access to all sections.
 - **Hero Section:** A professional landing introduction.
@@ -31,7 +30,7 @@ The website features a smooth, single-page navigation layout including:
 - **Skills:** Technical proficiencies and tools.
 - **Portfolio:** A showcase of my completed projects.
 - **Contact Me:** A dedicated area for reaching out.
-- **Footer:** Closing information and social links.
+- **Footer:** Copyrights and social links.
 
 ## 🛠 Technologies & Tools
 ### Core Stack
@@ -40,25 +39,16 @@ The website features a smooth, single-page navigation layout including:
 
 ### Design Resources
 I utilized these professional tools to enhance the UI/UX:
+- **Google Font:** For all textual contents in the website (Poppins Font).
 - **Font Awesome:** For scalable vector icons.
 - **Flaticon:** For high-quality graphic assets.
-- **Favicon.io:** For generating the `web-logo.ico`.
+- **Favicon.io:** For generating the website's icon `web-logo.ico`.
 - **Color Hunt:** For selecting the professional color palette.
 
 ## 📱 Responsive Design (Breakpoints)
 The website is optimized for different screen sizes using the following CSS strategy:
 - **Tablet View:** Optimized for screens with a `max-width: 768px`.
 - **Mobile View:** Optimized for screens with a `max-width: 528px`.
-
-## 🎓 University Assignment Details
-
-• Course: Full Stack Software Development
-
-• Project Goal: Demonstrate the ability to translate a design concept into a functional website using standard web technologies.
-
-• Technical Focus: Clean code architecture, cross-browser compatibility, and CSS layout techniques.
-
-
 
 ## 📂 Project Structure
 ```text
@@ -76,6 +66,10 @@ The website is optimized for different screen sizes using the following CSS stra
 - Locate the index.html file in the root directory.
 
 - Right-click the file and select "Open with..." then choose your preferred web browser (Chrome, Firefox, Safari, etc.).
+
+<u>**OR**</u>
+
+- go to page No ## on <u>**Planning Analysis Sheet**</u> and click on the Website Link, this link will take you directly to my website.
 
 ## 📄 License
 
