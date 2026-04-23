@@ -323,6 +323,7 @@ header .header-content img{
     line-height: 1.7;
     font-weight: 400;
     padding: 0 10px;
+    margin-bottom: 15px; /* New line */
 }
 
 .portfolio img{
