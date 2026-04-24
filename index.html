@@ -1,263 +1,314 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
 
     <!-- An external link to connect HTML file with CSS file -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- An extrernal font (Poppins font) for the website -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- A link to generate icons for the website -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-   <!-- An icon for the website -->
-    <link rel="shortcut icon" href="./web-logo.ico" type="image/x-icon">
+    <!-- An icon for the website -->
+    <link rel="shortcut icon" href="./web-logo.ico" type="image/x-icon" />
+  </head>
+  <body>
 
-</head>
-<body>
-
-    <main>
-
-        <!-- Navigation Links Section -->
-        <header id="home">
-            <div class="nav-bar">
-            <nav>
-                <a href="#home" class="logo">mo<span>Site</span></a>
-                <ul>
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#skills" class="nav-link">Skills</a></li>
-                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                    <li><a href="#contact" class="nav-link">Contact Me</a></li>
-                </ul>
-            </nav>
-          </div>  
-
-          <!-- Heading Content Section (Hero Section) -->
-          <div class="header-content">
-            <div class="content-text">
-                <p><span class="text-span">Hi, I'm</span></p>
-                <h1>Mohamed Idris</h1>
-                <p class="title">Full Stack Developer</p>
-                <div class="social-icons">
-                    <!-- Youtube Icon -->
-                     <a href="https://www.youtube.com" target="_blank"> 
-                     <i class="fa-brands fa-youtube you-red"></i>
-                     </a>
-                    <!-- LinkedIN Icon --> 
-                     <a href="https://www.linkedin.com"> 
-                    <i class="fa-brands fa-square-linkedin link-blue" target="_blank"></i>
-                    </a>
-                    <!-- X Icon -->
-                     <a href="https://www.x.com">  
-                     <i class="fa-brands fa-x-twitter x-black" target="_blank"></i>
-                    </a>
-                     <!-- Github Icon -->
-                      <a href="https://www.github.com">  
-                     <i class="fa-brands fa-github git-black" target="_blank"></i>
-                      </a>
-                </div>
-                <!-- <a href="#about" class="btn-aboutMe">About Me -->
-                <a href="http://www.linkedin.com/in/mohamed-idris-43163b164" target="_blank" class="btn-aboutMe">About Me
-                <i class="fa-solid fa-user-tie"></i>
-                </a>
-            </div>
-                <img src="./Images/Me.png" alt="My photo">
-          </div>
+      <!-- Navigation Links Section -->
+      <header id="home">
+        <div class="nav-bar">
+          <nav>
+            <a href="#home" class="logo">mo<span>Site</span></a>
+            <ul>
+              <li><a href="#home" class="nav-link">Home</a></li>
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#skills" class="nav-link">Skills</a></li>
+              <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+              <li><a href="#contact" class="nav-link">Contact Me</a></li>
+            </ul>
+          </nav>
+        </div>
         </header>
 
-        <!-- About ME Section -->
-        <section class="about" id="about">
-            <div class="container">
-                <h2><i class="fa-solid fa-user-tie"></i>
-                    About <span class="text-span">Me</span></h2>
-                <hr>
-                <div class="about-content">
-                    <h3>My name is <span class="text-span">Mohamed Idris</span> a Jr. Full Stack Developer</h3>
-                    <p>
-                        A curious learner and aspiring Web Developer.
-                        My work focuses on the intersection of clean code and user-centric design,
-                        driven by a desire to create meaningful and functional Web Applications.
-                        This site serves as a portfolio of my current work and a reflection of
-                        my professional growth.Thank you for stopping by!
-                    </p>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Skills Section -->
-        <section class="skills" id="skills">
-            <div class="container">
-                <h2>
-                    <i class="fa-solid fa-laptop-code"></i>
-                    Technical <span class="text-span">Skills</span>
-                </h2>
-                <hr>
-                <div class="skills-content">
-                    <div class="skills-cards">
-
-                        <div class="item">
-                            <img src="./Images/html.png" alt="HTML">
-                            <p>HTML</p>
-                        </div>
-
-                        <div class="item">
-                            <img src="./Images/css.png" alt="CSS">
-                            <p>CSS</p>
-                        </div>
-
-                        <div class="item">
-                            <img src="./Images/js.png" alt="JavaScript">
-                            <p>JavaScript</p>
-                        </div>
-
-                        <div class="item">
-                            <img src="./Images/python.png" alt="Python">
-                            <p>Python</p>
-                        </div>
-
-                        <div class="item">
-                            <img src="./Images/c-sharp.png" alt="C#">
-                            <p>C#</p>
-                        </div>
-
-                        <div class="item">
-                            <img src="./Images/github.png" alt="GitHub">
-                            <p>GitHub</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Portfolio Section -->
-        <section class="portfolio" id="portfolio">
-            <div class="container">
-                <h2><i class="fa-solid fa-briefcase"></i>
-                  My <span class="text-span">Portfolio</span>
-                </h2>
-                <hr>
-    
-                <div class="porfolio-cards">
-                    
-                    <div class="item">
-                        <img src="./Images/coming-soon-1.png" alt="coming soon-1-Web-Design-Project">
-
-                        <div class="item-content">
-                            <h3>Personal Website</h3>
-                            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sit!</p> -->
-                            <p>A Website Project one-page portfolio showcasing basic web development and responsiveness</p>
-                            <!-- <button class="btn-portfolio">View More</button> -->
-                            <a href="https://mohd-idris.github.io/Personal-Website---Project-1/" class="btn-portfolio" >View More</a>
-                        </div>    
-                    </div>
-                    
-                    <div class="item">
-                        <img src="./Images/coming-soon-2.png" alt="coming soon-2-Python-Project">
-                        <div class="item-content">
-                            <h3>Python Project</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sit!</p>
-                            <!-- <button class="btn-portfolio">View More</button> -->
-                            <a href="https://google.com" target="_blank" class="btn-portfolio">View More</a>
-                        </div>
-                    </div>  
-
-                    <div class="item">
-                        <img src="./Images/coming-soon-3.png" alt="coming soon-3-JavaScript-Project">
-                        <div class="item-content">
-                             <h3>JS Project</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sit!</p>
-                            <!-- <button class="btn-portfolio">View More</button> -->
-                            <a href="https://google.com" target="_blank" class="btn-portfolio">View More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Contact Me Section -->
-
-        <section class="contact" id="contact">
-            <div class="container">
-                <h2>
-                    <i class="fa-solid fa-envelope"></i>
-                    Contact<span class="text-span"> Me</span>
-                </h2>
-                <hr>
-                <div class="contact-content">
-                    <img src="./Images/contact-me-2.jpg" alt="Contact Me">
-                    
-                    <!-- The action here will send the enterd info directly to the email below -->
-                    <form action="https://formsubmit.co/moidriz91@gmail.com" method="POST">
-                        
-                        <label>Name
-                         <input type="text"
-                          name="Name"
-                          id="Name"
-                          placeholder="Please Enter your Name"
-                          required>
-                        </label>
-                        
-                        <label>Email
-                         <input type="email"
-                          name="Email"
-                          id="Email"
-                          placeholder="Please Enter your Email"
-                          required>
-                        </label>
-                        
-                        <label>Message
-                         <textarea name="Message"
-                          id="Message"
-                          cols="30"
-                          rows="10"
-                          placeholder="Please Write your Message here"
-                          required></textarea>
-                        </label>
-
-                        <button type="submit" class="btn-contactMe">
-                            Submit
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-    
-    <footer class="footer" id="footer">
-        <div class="container">
-            <p>
-            &copy; All Rights Reserved | &commat; moSite 2026
-            </p>
+        <!-- Heading Content Section (Hero Section) -->
+        <section class="header-content">
+          <div class="content-text">
+            <p><span class="text-span">Hi, I'm</span></p>
+            <h1>Mohamed Idris</h1>
+            <p class="title">Full Stack Developer</p>
             <div class="social-icons">
-                    <!-- Youtube Icon -->
-                     <a href="https://www.youtube.com" target="_blank"> 
-                     <i class="fa-brands fa-youtube you-red"></i>
-                     </a>
-                    <!-- LinkedIN Icon --> 
-                     <a href="https://www.linkedin.com" target="_blank"> 
-                    <i class="fa-brands fa-square-linkedin link-blue"></i>
-                    </a>
-                    <!-- X Icon -->
-                     <a href="https://www.x.com" target="_blank">  
-                     <i class="fa-brands fa-x-twitter x-black"></i>
-                    </a>
-                     <!-- Github Icon -->
-                      <a href="https://www.github.com" target="_blank">  
-                     <i class="fa-brands fa-github git-black"></i>
-                      </a>
-                </div>                
+              <!-- Youtube Icon -->
+              <a href="https://www.youtube.com" target="_blank">
+                <i class="fa-brands fa-youtube you-red"></i>
+              </a>
+              <!-- LinkedIN Icon -->
+              <a href="https://www.linkedin.com">
+                <i
+                  class="fa-brands fa-square-linkedin link-blue"
+                  target="_blank"
+                ></i>
+              </a>
+              <!-- X Icon -->
+              <a href="https://www.x.com">
+                <i class="fa-brands fa-x-twitter x-black" target="_blank"></i>
+              </a>
+              <!-- Github Icon -->
+              <a href="https://www.github.com">
+                <i class="fa-brands fa-github git-black" target="_blank"></i>
+              </a>
             </div>
-       </footer>
+            <!-- <a href="#about" class="btn-aboutMe">About Me -->
+            <a
+              href="http://www.linkedin.com/in/mohamed-idris-43163b164"
+              target="_blank"
+              class="btn-aboutMe"
+              >About Me
+              <i class="fa-solid fa-user-tie"></i>
+            </a>
+          </div>
+          <img src="./Images/Me.png" alt="My photo" />
+        </section>
 
-</body>
+    <main>
+    
+
+      <!-- About ME Section -->
+      <section class="about" id="about">
+        <div class="container">
+          <h2>
+            <i class="fa-solid fa-user-tie"></i> About
+            <span class="text-span">Me</span>
+          </h2>
+          <hr />
+          <div class="about-content">
+            <h3>
+              My name is <span class="text-span">Mohamed Idris</span> a Jr. Full
+              Stack Developer
+            </h3>
+            <p>
+              A curious learner and aspiring Web Developer. My work focuses on
+              the intersection of clean code and user-centric design, driven by
+              a desire to create meaningful and functional Web Applications.
+              This site serves as a portfolio of my current work and a
+              reflection of my professional growth.Thank you for stopping by!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2>
+            <i class="fa-solid fa-laptop-code"></i>
+            Technical <span class="text-span">Skills</span>
+          </h2>
+          <hr />
+          <div class="skills-content">
+            <div class="skills-cards">
+              <div class="item">
+                <img src="./Images/html.png" alt="HTML" />
+                <p>HTML</p>
+              </div>
+
+              <div class="item">
+                <img src="./Images/css.png" alt="CSS" />
+                <p>CSS</p>
+              </div>
+
+              <div class="item">
+                <img src="./Images/js.png" alt="JavaScript" />
+                <p>JavaScript</p>
+              </div>
+
+              <div class="item">
+                <img src="./Images/python.png" alt="Python" />
+                <p>Python</p>
+              </div>
+
+              <div class="item">
+                <img src="./Images/c-sharp.png" alt="C#" />
+                <p>C#</p>
+              </div>
+
+              <div class="item">
+                <img src="./Images/github.png" alt="GitHub" />
+                <p>GitHub</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <h2>
+            <i class="fa-solid fa-briefcase"></i> My
+            <span class="text-span">Portfolio</span>
+          </h2>
+          <hr />
+
+          <div class="porfolio-cards">
+            <div class="item">
+              <img 
+                src="./Images/coming-soon-1.png"
+                alt="coming soon-1-Web-Design-Project"
+              />
+
+              <div class="item-content">
+                <h3>Personal Website</h3>
+                <p>
+                  A Project one-page portfolio showcasing basic web
+                  development and responsiveness
+                </p>
+                <a
+                  href="https://mohd-idris.github.io/Personal-Website---Project-1/"
+                  class="btn-portfolio"
+                  >View More</a
+                >
+              </div>
+            </div>
+
+            <div class="item">
+              <img
+                src="./Images/coming-soon-2.png"
+                alt="coming soon-2-Python-Project"
+              />
+              <div class="item-content">
+                <h3>Python Project</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, sit!
+                </p>
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  class="btn-portfolio-disabled" aria-disabled="true"
+                  >View More</a
+                >
+              </div>
+            </div>
+
+            <div class="item">
+              <img
+                src="./Images/coming-soon-3.png"
+                alt="coming soon-3-JavaScript-Project"
+              />
+              <div class="item-content">
+                <h3>JS Project</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, sit!
+                </p>
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  class="btn-portfolio-disabled" aria-disabled="true"
+                  >View More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Me Section -->
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2>
+            <i class="fa-solid fa-envelope"></i>
+            Contact<span class="text-span"> Me</span>
+          </h2>
+          <hr />
+          <div class="contact-content">
+            <img src="./Images/contact-me-2.jpg" alt="Contact Me" />
+
+            <!-- The action here will send the enterd info directly to the email below -->
+            <form
+              action="https://formsubmit.co/moidriz91@gmail.com"
+              method="POST"
+            >
+              <label
+                >Name
+                <input
+                  type="text"
+                  name="Name"
+                  id="Name"
+                  placeholder="Please Enter your Name"
+                  required
+                />
+              </label>
+
+              <label
+                >Email
+                <input
+                  type="email"
+                  name="Email"
+                  id="Email"
+                  placeholder="Please Enter your Email"
+                  required
+                />
+              </label>
+
+              <label
+                >Message
+                <textarea
+                  name="Message"
+                  id="Message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Please Write your Message here"
+                  required
+                ></textarea>
+              </label>
+
+              <button type="submit" class="btn-contactMe">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="container">
+        <p>&copy; All Rights Reserved | &commat; moSite 2026</p>
+        <div class="social-icons">
+          <!-- Youtube Icon -->
+          <a href="https://www.youtube.com" target="_blank">
+            <i class="fa-brands fa-youtube you-red"></i>
+          </a>
+          <!-- LinkedIN Icon -->
+          <a href="https://www.linkedin.com" target="_blank">
+            <i class="fa-brands fa-square-linkedin link-blue"></i>
+          </a>
+          <!-- X Icon -->
+          <a href="https://www.x.com" target="_blank">
+            <i class="fa-brands fa-x-twitter x-black"></i>
+          </a>
+          <!-- Github Icon -->
+          <a href="https://www.github.com" target="_blank">
+            <i class="fa-brands fa-github git-black"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
