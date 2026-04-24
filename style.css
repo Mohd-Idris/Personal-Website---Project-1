@@ -52,7 +52,7 @@ Fourth color    ----- #FFA47F (white chocalate)
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1100;
+  max-width: 1100px;
   margin: auto;
   padding: 1.5rem 2rem;
 }
@@ -100,7 +100,7 @@ ul a {
   gap: 0 6rem;
   justify-content: center;
   align-items: center;
-  max-width: 1100;
+  max-width: 1100px;
   height: 100%;
   margin: auto;
   padding: 5rem 2rem 0;
@@ -171,7 +171,7 @@ ul a {
 .header-content img {
   max-width: 450px;
   border-radius: 50%;
-  border: px solid white;
+  border: 1px solid white;
 }
 
 .header-content .content-text {
