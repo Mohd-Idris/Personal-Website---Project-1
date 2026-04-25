@@ -59,6 +59,59 @@ The website is optimized for different screen sizes using the following CSS stra
 └── images/ # Directory for assets and project photos
 ```
 
+## Accessiblity Notes
+For Accessibilty, I've tested the accessibilty in terms of:
+- **Keyboard Access:** ensured that all the ineractive elements are working fine.
+- **Visual Design and Imagery:** Checked the (Alt Text) attribute to make sure the Screen Reader (VoiceOver) is working perfectly.
+- **Color Contrast:** I confirmed the minimum contrast ratio is met for my website.
+- **Form Validation:** I tested that the form inputs have linked with lables, and for error checking all form inputs that have required field to be validated.
+
+## Tests
+To ensure that my code meets the requirements of cleaning and has no any kind of errors and unused code, I ran some tests to my code to review and clean my code is clear , I used the following tools:
+
+### For Reviewing and Cleaning:
+- **VS Code feature:** to clear and format indentation to look good.
+- **Developer Tools:** to ensure your code is 100% utalizied.
+- **Validator.w3.org website:** to validate your code is clean for HTML file.
+- **Jigsaw.w3.org website:** to validate your code is clean for CSS file.
+
+### For Accessibilty Test :
+- **Axe Devtools:** to ensure the code has no errors.
+
+## General Notes / Developer Logs
+During building the website I've faced some challenges in what is the idea?, how to build it?, what technology should I use?, and many questions that I asked myself about. After brainstorming and searching for ideas, I got one why don't you build a website for youserlf?.
+
+Then I choosed to build my website to be all in one page and then by time I can develop and enhance it for sure , Here are the challenges that I faced.
+- **The Challenge #1 : Navigation should be inside the page ?**
+- **The Solution #1:** because this was a new thing to me to navigate inside the same the page not to another, I asked my AI tool how to fix this, then I know how to make it by setting a property in CSS called Scroll-behaviour to smooth value. 
+
+- **The Challenge #2 : How to build Skills and Portfolio sections creatively ?**
+- **The Solution #2 :** here I had to learn one thing or two things to implement this. I searched for the right tool to do this and after long search , I found out the way to do it, by applying these properties (box-shadow and transition). 
+
+- **The Challenge #3 : The Hovering Effect**
+- **The Solution #3 :** I had to go and search for the right tool to do this, I found out the way to do it, by applying this event (:hover) then added some styling to it when it triggers.
+
+- **The Challenge #4 : Page Layout**
+- **The Solution #4 :** It took me long time to adjust the layout, I had to check every time when i add any section of these, but at all iI managed to fix this by setting the width property to a certain value.
+
+- **The Challenge #5 : GitHub Issues**
+- **The Solution #5 :** at the beginning it was a nightmare, because you add your file(s),then commit, and push, then got an error you'll start to get panic ... anyway I had to deal with GitHub (No way out) but now we're friends. 
+
+
+These were the major challenges that I encountered, but definitely they were another 
+challenges during this journey.
+
+Last thing, I would say during my this journey I have learned a lot of things, such as how to fix problems, how to be patient , how to use the right tools to build and develop your website !!!*
+
+
+
+
+## GitHib Repo Link
+- **https://github.com/Mohd-Idris/Personal-Website---Project-1**
+
+## Live Website link
+- **https://mohd-idris.github.io/Personal-Website---Project-1/**
+
 ## 💻 How to View
 
 - Clone this repository to your local machine.
